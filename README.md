@@ -22,6 +22,8 @@ python3 -m http.server 8899
 | `styles.css` | Shared stylesheet, palette matched to the Pro app |
 | `logo.png` | Round logo, 500×500 |
 | `logo-120.png` | Round logo, 120×120 |
+| `icon-1024.png` | App icon, 1024×1024 square, no alpha (App Store safe) |
+| `icon-1024-round.png` | App icon, 1024×1024 round, transparent |
 | `logo-source.jpeg` | Original square logo |
 | `favicon.ico`, `favicon-32.png`, `apple-touch-icon.png` | Icons, generated from the logo |
 
