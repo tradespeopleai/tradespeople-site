@@ -37,7 +37,7 @@ magick -size 500x500 xc:'#1a1a1a' \
 ## Operating entity
 
 The site is published by **Unit 37 OÜ**, an Estonian private limited company,
-registry number 16961687, Tornimäe tn 5, Kesklinna linnaosa, Tallinn, 10145.
+registry code 16961687, Tornimäe tn 5, Kesklinna linnaosa, Tallinn, 10145.
 
 Because the controller sits in Estonia while the service targets UK
 tradespeople, the privacy policy cites both the EU and UK GDPR, and names both
@@ -47,8 +47,8 @@ B2B contract.
 
 ## Before going live
 
-- Confirm the Estonian VAT number. Registry codes are 8 digits; Estonian VAT
-  numbers are `EE` plus 9 digits, so `16961687` may be the registry code only.
+- Not VAT-registered as of August 2026. The terms say so explicitly; revisit
+  that clause and add the `EE`-prefixed number if registration happens.
 - Consider a role mailbox (e.g. `hello@`) in place of the personal address.
 - Consider whether a UK Article 27 representative is required.
 
