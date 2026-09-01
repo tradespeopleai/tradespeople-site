@@ -57,3 +57,20 @@ B2B contract.
 ## Deploy
 
 Pushing to `main` publishes to GitHub Pages via `.github/workflows/deploy.yml`.
+
+The site is published from two repos, both public:
+
+| Remote | Repo | URL |
+| --- | --- | --- |
+| `origin` | `tradespeopleai/tradespeople-site` | <https://tradespeopleai.github.io/tradespeople-site/> |
+| `old-origin` | `ncvgl/tradespeople-site` | <https://ncvgl.com/tradespeople-site/> |
+
+`origin` is the company org and the one to treat as canonical; push there.
+`old-origin` is the original personal repo, kept as-is — push to it only if you
+deliberately want to update that copy too.
+
+Both repos must stay **public**: GitHub Pages does not serve from a private
+repo on the free plan, and neither the org nor the `ncvgl` account is on a paid
+one. Nothing here is sensitive (the whole site is served publicly anyway), but
+if the source ever needs to be private, move hosting to Cloudflare Pages or
+Vercel — both build private GitHub repos on their free tiers.
